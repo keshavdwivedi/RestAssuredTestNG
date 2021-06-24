@@ -1,0 +1,12 @@
+/Users/keshavmac/IdeaProjects/com.RestAssuredTestNG.StudentSetup/src/test/java/com/RestAssuredTestNG/StudentAPI/Testcases/TC002_GetSpecifcUsers.java
+/Users/keshavmac/IdeaProjects/com.RestAssuredTestNG.StudentSetup/src/test/java/com/RestAssuredTestNG/StudentAPI/Testcases/TC005_DeleteUser.java
+/Users/keshavmac/IdeaProjects/com.RestAssuredTestNG.StudentSetup/src/test/java/com/RestAssuredTestNG/StudentAPI/Utilities/ExcelDataReaderSetup/StudentAPIDataProviders.java
+/Users/keshavmac/IdeaProjects/com.RestAssuredTestNG.StudentSetup/src/test/java/com/RestAssuredTestNG/StudentAPI/Testcases/TC001_GetAllUsers.java
+/Users/keshavmac/IdeaProjects/com.RestAssuredTestNG.StudentSetup/src/test/java/com/RestAssuredTestNG/StudentAPI/Testcases/TC003_CreateUser.java
+/Users/keshavmac/IdeaProjects/com.RestAssuredTestNG.StudentSetup/src/test/java/com/RestAssuredTestNG/StudentAPI/Utilities/ExtentReportSetup/ExtentListenerSetup.java
+/Users/keshavmac/IdeaProjects/com.RestAssuredTestNG.StudentSetup/src/test/java/com/RestAssuredTestNG/StudentAPI/Utilities/ExcelDataReaderSetup/DataProviderConfig.java
+/Users/keshavmac/IdeaProjects/com.RestAssuredTestNG.StudentSetup/src/test/java/com/RestAssuredTestNG/StudentAPI/Utilities/PojoClasses/Users.java
+/Users/keshavmac/IdeaProjects/com.RestAssuredTestNG.StudentSetup/src/test/java/com/RestAssuredTestNG/StudentAPI/APICollection/StudentAPICollection.java
+/Users/keshavmac/IdeaProjects/com.RestAssuredTestNG.StudentSetup/src/test/java/com/RestAssuredTestNG/StudentAPI/Utilities/ExcelDataReaderSetup/ExcelDataReader.java
+/Users/keshavmac/IdeaProjects/com.RestAssuredTestNG.StudentSetup/src/test/java/com/RestAssuredTestNG/StudentAPI/Testcases/TC004_PutSpecificUser.java
+/Users/keshavmac/IdeaProjects/com.RestAssuredTestNG.StudentSetup/src/test/java/com/RestAssuredTestNG/StudentAPI/Base/TestBase.java

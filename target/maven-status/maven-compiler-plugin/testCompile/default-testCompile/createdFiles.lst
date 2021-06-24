@@ -1,0 +1,12 @@
+com/RestAssuredTestNG/StudentAPI/Testcases/TC001_GetAllUsers.class
+com/RestAssuredTestNG/StudentAPI/Utilities/ExcelDataReaderSetup/ExcelDataReader.class
+com/RestAssuredTestNG/StudentAPI/Utilities/PojoClasses/Users.class
+com/RestAssuredTestNG/StudentAPI/Testcases/TC003_CreateUser.class
+com/RestAssuredTestNG/StudentAPI/Testcases/TC002_GetSpecifcUsers.class
+com/RestAssuredTestNG/StudentAPI/Base/TestBase.class
+com/RestAssuredTestNG/StudentAPI/Utilities/ExtentReportSetup/ExtentListenerSetup.class
+com/RestAssuredTestNG/StudentAPI/Utilities/ExcelDataReaderSetup/StudentAPIDataProviders.class
+com/RestAssuredTestNG/StudentAPI/Testcases/TC005_DeleteUser.class
+com/RestAssuredTestNG/StudentAPI/Utilities/ExcelDataReaderSetup/DataProviderConfig.class
+com/RestAssuredTestNG/StudentAPI/Testcases/TC004_PutSpecificUser.class
+com/RestAssuredTestNG/StudentAPI/APICollection/StudentAPICollection.class
