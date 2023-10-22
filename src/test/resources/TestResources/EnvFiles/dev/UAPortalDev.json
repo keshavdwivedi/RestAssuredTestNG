@@ -1,0 +1,5 @@
+{
+  "baseURI": "https://uatportal.landscapecrm.com",
+  "LogoutBaseURI": "https://uatidentity.landscapecrm.com",
+  "PortalBaseURI": "https://uathub.landscapecrm.com"
+}

@@ -1,0 +1,7 @@
+{
+  "baseURI": "https://practice.expandtesting.com/notes/api/users",
+  "registerUser": "/register",
+  "loginUser":"/login",
+  "deleteUser": "/delete-account",
+  "profileUser":"/profile"
+}

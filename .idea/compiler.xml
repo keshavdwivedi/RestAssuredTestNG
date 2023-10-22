@@ -7,8 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="com.RestAssuredTestNG.StudentSetup" />
+        <module name="DemoTest" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.RestAssuredTestNG.DemoTest" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

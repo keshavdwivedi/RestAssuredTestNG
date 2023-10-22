@@ -1,33 +1,7 @@
-2021-06-24 09:09:31 INFO  TC005_DeleteUser:16 - Get all users test has been started
-2021-06-24 09:09:33 INFO  TC005_DeleteUser:31 - Response code validated is 200
-2021-06-24 09:09:33 INFO  TC005_DeleteUser:40 - Response time is==> 406
-2021-06-24 09:09:33 INFO  TC005_DeleteUser:45 - Status Line is ==> HTTP/1.1 200 OK
-2021-06-24 09:09:33 INFO  TC005_DeleteUser:52 - Content type is==> application/json; charset=utf-8
-2021-06-24 09:09:33 INFO  TC005_DeleteUser:59 - Content Length is==>281
-2021-06-24 09:09:33 INFO  TC005_DeleteUser:25 - Get all users test has been completed
-2021-06-24 09:09:33 INFO  TC005_DeleteUser:16 - Get specific users test has been started
-2021-06-24 09:09:33 INFO  TC005_DeleteUser:33 - Response code validated is==> 200
-2021-06-24 09:09:33 INFO  TC005_DeleteUser:42 - Response time validated is==> 16
-2021-06-24 09:09:33 INFO  TC005_DeleteUser:47 - Status Line is ==> HTTP/1.1 200 OK
-2021-06-24 09:09:33 INFO  TC005_DeleteUser:54 - Content type is==> application/json; charset=utf-8
-2021-06-24 09:09:33 INFO  TC005_DeleteUser:61 - Content Length is==>95
-2021-06-24 09:09:33 INFO  TC005_DeleteUser:27 - Get specific users test has been completed
-2021-06-24 09:09:33 INFO  TC005_DeleteUser:16 - Create users test has been started
-2021-06-24 09:09:38 INFO  TC005_DeleteUser:47 - Response code validated is==> 201
-2021-06-24 09:09:38 INFO  TC005_DeleteUser:52 - Status Line is ==> HTTP/1.1 201 Created
-2021-06-24 09:09:38 INFO  TC005_DeleteUser:59 - Content type is==> application/json; charset=utf-8
-2021-06-24 09:09:38 INFO  TC005_DeleteUser:66 - Content Length is==>86
-2021-06-24 09:09:38 INFO  TC005_DeleteUser:22 - Create users test has been completed
-2021-06-24 09:09:38 INFO  TC005_DeleteUser:16 - Put specific users test has been started
-2021-06-24 09:09:41 INFO  TC005_DeleteUser:47 - Response code validated is==> 200
-2021-06-24 09:09:41 INFO  TC005_DeleteUser:56 - Response time validated is==> 12
-2021-06-24 09:09:41 INFO  TC005_DeleteUser:61 - Status Line is ==> HTTP/1.1 200 OK
-2021-06-24 09:09:41 INFO  TC005_DeleteUser:68 - Content type is==> application/json; charset=utf-8
-2021-06-24 09:09:41 INFO  TC005_DeleteUser:75 - Content Length is==>82
-2021-06-24 09:09:41 INFO  TC005_DeleteUser:22 - Put specific users test has been completed
-2021-06-24 09:09:41 INFO  TC005_DeleteUser:15 - Delete users test has been started
-2021-06-24 09:09:41 INFO  TC005_DeleteUser:28 - Response code validated is==> 200
-2021-06-24 09:09:41 INFO  TC005_DeleteUser:37 - Response time validated is==> 13
-2021-06-24 09:09:41 INFO  TC005_DeleteUser:42 - Status Line is ==> HTTP/1.1 200 OK
-2021-06-24 09:09:41 INFO  TC005_DeleteUser:49 - Content type is==> application/json; charset=utf-8
-2021-06-24 09:09:41 INFO  TC005_DeleteUser:22 - Delete users test has been completed
+2023-08-08 10:07:04 INFO  TC005_DeleteUser:16 - Get all users test has been started
+2023-08-08 10:07:06 INFO  TC005_DeleteUser:16 - Get specific users test has been started
+2023-08-08 10:07:06 INFO  TC005_DeleteUser:16 - Create users test has been started
+2023-08-08 10:07:07 INFO  TC005_DeleteUser:22 - Create users test has been completed
+2023-08-08 10:07:07 INFO  TC005_DeleteUser:16 - Put specific users test has been started
+2023-08-08 10:07:07 INFO  TC005_DeleteUser:22 - Put specific users test has been completed
+2023-08-08 10:07:07 INFO  TC005_DeleteUser:15 - Delete users test has been started

@@ -10,7 +10,7 @@ public class StudentAPIDataProviders {
     public Object[][] createNewUser()
     {
 
-        Object data[][]=dataProviderConfig.fetchSheetData(System.getProperty("user.dir")+"/TestResources/StudentData.xlsx","Sheet1");
+        Object [][] data=dataProviderConfig.fetchSheetData(System.getProperty("user.dir")+"/src/test/resources/TestResources/StudentData.xlsx","Sheet1");
         return data;
     }
 
@@ -18,7 +18,7 @@ public class StudentAPIDataProviders {
     public Object[][] PutExistingUser()
     {
 
-        Object data[][]=dataProviderConfig.fetchSheetData(System.getProperty("user.dir")+"/TestResources/StudentData.xlsx","Sheet2");
+        Object [][] data=dataProviderConfig.fetchSheetData(System.getProperty("user.dir")+"/src/test/resources/TestResources/StudentData.xlsx","Sheet2");
         return data;
     }
 }
