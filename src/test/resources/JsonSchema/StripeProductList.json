@@ -1,0 +1,189 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome7",
+  "definitions": {
+    "Welcome7": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "object": {
+          "type": "string"
+        },
+        "data": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Datum"
+          }
+        },
+        "has_more": {
+          "type": "boolean"
+        },
+        "url": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "data",
+        "has_more",
+        "object",
+        "url"
+      ],
+      "title": "Welcome7"
+    },
+    "Datum": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "object": {
+          "type": "string"
+        },
+        "active": {
+          "type": "boolean"
+        },
+        "attributes": {
+          "type": "array",
+          "items": {}
+        },
+        "created": {
+          "type": "integer"
+        },
+        "default_price": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "features": {
+          "type": "array",
+          "items": {}
+        },
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "livemode": {
+          "type": "boolean"
+        },
+        "marketing_features": {
+          "type": "array",
+          "items": {}
+        },
+        "metadata": {
+          "$ref": "#/definitions/Metadata"
+        },
+        "name": {
+          "type": "string"
+        },
+        "package_dimensions": {
+          "type": "null"
+        },
+        "shippable": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "statement_descriptor": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "tax_code": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "type": {
+          "type": "string"
+        },
+        "unit_label": {
+          "type": "null"
+        },
+        "updated": {
+          "type": "integer"
+        },
+        "url": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "required": [
+        "active",
+        "attributes",
+        "created",
+        "default_price",
+        "description",
+        "features",
+        "id",
+        "images",
+        "livemode",
+        "marketing_features",
+        "metadata",
+        "name",
+        "object",
+        "package_dimensions",
+        "shippable",
+        "statement_descriptor",
+        "tax_code",
+        "type",
+        "unit_label",
+        "updated",
+        "url"
+      ],
+      "title": "Datum"
+    },
+    "Metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "order_id": {
+          "type": "string",
+          "format": "integer"
+        }
+      },
+      "required": [
+        "order_id"
+      ],
+      "title": "Metadata"
+    }
+  }
+}

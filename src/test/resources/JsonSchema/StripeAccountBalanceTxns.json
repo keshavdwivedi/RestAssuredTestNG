@@ -1,0 +1,364 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "object": {
+      "type": "string"
+    },
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "object": {
+              "type": "string"
+            },
+            "amount": {
+              "type": "integer"
+            },
+            "available_on": {
+              "type": "integer"
+            },
+            "balance_type": {
+              "type": "string"
+            },
+            "created": {
+              "type": "integer"
+            },
+            "cross_border_classification": {
+              "type": "string"
+            },
+            "currency": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "exchange_rate": {
+              "type": "null"
+            },
+            "fee": {
+              "type": "integer"
+            },
+            "fee_details": {
+              "type": "array",
+              "items": {}
+            },
+            "net": {
+              "type": "integer"
+            },
+            "reporting_category": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "object",
+            "amount",
+            "available_on",
+            "balance_type",
+            "created",
+            "cross_border_classification",
+            "currency",
+            "description",
+            "exchange_rate",
+            "fee",
+            "fee_details",
+            "net",
+            "reporting_category",
+            "source",
+            "status",
+            "type"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "object": {
+              "type": "string"
+            },
+            "amount": {
+              "type": "integer"
+            },
+            "available_on": {
+              "type": "integer"
+            },
+            "balance_type": {
+              "type": "string"
+            },
+            "created": {
+              "type": "integer"
+            },
+            "cross_border_classification": {
+              "type": "string"
+            },
+            "currency": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "exchange_rate": {
+              "type": "null"
+            },
+            "fee": {
+              "type": "integer"
+            },
+            "fee_details": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "integer"
+                    },
+                    "application": {
+                      "type": "null"
+                    },
+                    "currency": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "application",
+                    "currency",
+                    "description",
+                    "type"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "integer"
+                    },
+                    "application": {
+                      "type": "null"
+                    },
+                    "currency": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "application",
+                    "currency",
+                    "description",
+                    "type"
+                  ]
+                }
+              ]
+            },
+            "net": {
+              "type": "integer"
+            },
+            "reporting_category": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "object",
+            "amount",
+            "available_on",
+            "balance_type",
+            "created",
+            "cross_border_classification",
+            "currency",
+            "description",
+            "exchange_rate",
+            "fee",
+            "fee_details",
+            "net",
+            "reporting_category",
+            "source",
+            "status",
+            "type"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "object": {
+              "type": "string"
+            },
+            "amount": {
+              "type": "integer"
+            },
+            "available_on": {
+              "type": "integer"
+            },
+            "balance_type": {
+              "type": "string"
+            },
+            "created": {
+              "type": "integer"
+            },
+            "cross_border_classification": {
+              "type": "string"
+            },
+            "currency": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "exchange_rate": {
+              "type": "null"
+            },
+            "fee": {
+              "type": "integer"
+            },
+            "fee_details": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "integer"
+                    },
+                    "application": {
+                      "type": "null"
+                    },
+                    "currency": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "application",
+                    "currency",
+                    "description",
+                    "type"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "integer"
+                    },
+                    "application": {
+                      "type": "null"
+                    },
+                    "currency": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "application",
+                    "currency",
+                    "description",
+                    "type"
+                  ]
+                }
+              ]
+            },
+            "net": {
+              "type": "integer"
+            },
+            "reporting_category": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "object",
+            "amount",
+            "available_on",
+            "balance_type",
+            "created",
+            "cross_border_classification",
+            "currency",
+            "description",
+            "exchange_rate",
+            "fee",
+            "fee_details",
+            "net",
+            "reporting_category",
+            "source",
+            "status",
+            "type"
+          ]
+        }
+      ]
+    },
+    "has_more": {
+      "type": "boolean"
+    },
+    "url": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "object",
+    "data",
+    "has_more",
+    "url"
+  ]
+}

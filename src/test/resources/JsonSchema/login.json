@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome5",
+  "definitions": {
+    "Welcome5": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "success": {
+          "type": "boolean"
+        },
+        "status": {
+          "type": "integer"
+        },
+        "message": {
+          "type": "string"
+        },
+        "data": {
+          "$ref": "#/definitions/Data"
+        }
+      },
+      "required": [
+        "data",
+        "message",
+        "status",
+        "success"
+      ],
+      "title": "Welcome5"
+    },
+    "Data": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "token": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "email",
+        "id",
+        "name",
+        "token"
+      ],
+      "title": "Data"
+    }
+  }
+}

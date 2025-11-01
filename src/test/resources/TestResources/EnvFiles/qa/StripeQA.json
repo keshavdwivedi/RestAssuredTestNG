@@ -1,0 +1,6 @@
+{
+  "baseURI": "https://api.stripe.com",
+  "GetAllProducts": "/v1/products",
+  "GetBalance":"/v1/balance",
+  "GetBalanceTransactions": "/v1/balance_transactions"
+}
