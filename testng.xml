@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name=""></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="HP One API Test">
+        <classes>
+<!--            <class name="GetRequests.GetAuthorizeClientID"/>-->
+<!--            <class name="GetRequests.GetCalendarEventPage"/>-->
+<!--            <class name="GetRequests.GetCheckSettings"/>-->
+<!--            <class name="GetRequests.GetCustomerNotesPage"/>-->
+<!--            <class name="GetRequests.GetCustomerRecordPage"/>-->
+<!--            <class name="GetRequests.GetDistributorStatusPage"/>-->
+<!--            <class name="GetRequests.GetLogoutPage"/>-->
+<!--            <class name="GetRequests.GetMySalesPolicyDataPage"/>-->
+<!--            <class name="GetRequests.GetPortalPage"/>-->
+<!--            <class name="GetRequests.GetStartupPage"/>-->
+<!--            <class name="GetRequests.getCalendarEventsNotesPage"/>-->
+        </classes>
+    </test>
+</suite>
