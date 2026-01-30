@@ -1,0 +1,25 @@
+2025-05-03T17:09:42,298 [main] INFO  (Test1.java:29) - Logged amount
+2025-05-03T17:14:04,057 [main] INFO  (Test1.java:18) - Test case started
+2025-05-03T17:14:04,072 [main] INFO  (Log4jListener.java:14) - 
+
+2025-05-03T17:14:04,075 [main] INFO  (Log4jListener.java:15) - ===========================================================================
+2025-05-03T17:14:04,075 [main] INFO  (Log4jListener.java:16) - Test Execution Started....firstTestcase
+2025-05-03T17:14:04,075 [main] INFO  (Log4jListener.java:17) - ===========================================================================
+2025-05-03T17:14:04,075 [main] INFO  (Log4jListener.java:18) - 
+
+2025-05-03T17:14:06,472 [main] INFO  (Test1.java:42) - Logged amount
+2025-05-03T17:14:06,474 [main] INFO  (Log4jListener.java:14) - 
+
+2025-05-03T17:14:06,474 [main] INFO  (Log4jListener.java:15) - ===========================================================================
+2025-05-03T17:14:06,474 [main] INFO  (Log4jListener.java:16) - Test Passed Successfully.firstTestcase
+2025-05-03T17:14:06,474 [main] INFO  (Log4jListener.java:17) - ===========================================================================
+2025-05-03T17:14:06,474 [main] INFO  (Log4jListener.java:18) - 
+
+2025-05-03T17:14:06,476 [main] INFO  (Test1.java:23) - Get all users test has been completed
+2025-05-03T17:14:06,477 [main] INFO  (Log4jListener.java:14) - 
+
+2025-05-03T17:14:06,477 [main] INFO  (Log4jListener.java:15) - ===========================================================================
+2025-05-03T17:14:06,477 [main] INFO  (Log4jListener.java:16) - Test Execution Completed Successfully for all tests!![Test1.firstTestcase()[pri:0, instance:com.RestAssuredTestNG.APITests.Testcases.Test1_Stripe_ProductAttribute@101639ae]]
+2025-05-03T17:14:06,477 [main] INFO  (Log4jListener.java:17) - ===========================================================================
+2025-05-03T17:14:06,478 [main] INFO  (Log4jListener.java:18) - 
+

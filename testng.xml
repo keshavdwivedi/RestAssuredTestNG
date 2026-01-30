@@ -2,21 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <listeners>
-        <listener class-name=""></listener>
+    <listener class-name="com.RestAssuredTestNG.APITests.APIConfigs.ExtentReportSetup.ExtentListenerSetup"/>
+    <listener class-name="com.RestAssuredTestNG.APITests.APIConfigs.Log4jSetup.Log4jListener"/>
     </listeners>
-    <test verbose="2" preserve-order="true" name="HP One API Test">
+    <test verbose="2" name="/Users/keshavmac/IdeaProjects/com.RestAssuredTestNG">
         <classes>
-<!--            <class name="GetRequests.GetAuthorizeClientID"/>-->
-<!--            <class name="GetRequests.GetCalendarEventPage"/>-->
-<!--            <class name="GetRequests.GetCheckSettings"/>-->
-<!--            <class name="GetRequests.GetCustomerNotesPage"/>-->
-<!--            <class name="GetRequests.GetCustomerRecordPage"/>-->
-<!--            <class name="GetRequests.GetDistributorStatusPage"/>-->
-<!--            <class name="GetRequests.GetLogoutPage"/>-->
-<!--            <class name="GetRequests.GetMySalesPolicyDataPage"/>-->
-<!--            <class name="GetRequests.GetPortalPage"/>-->
-<!--            <class name="GetRequests.GetStartupPage"/>-->
-<!--            <class name="GetRequests.getCalendarEventsNotesPage"/>-->
+            <class name="com.RestAssuredTestNG.APITests.Testcases.Test1_Stripe_ProductAttribute"/>
+            <class name="com.RestAssuredTestNG.APITests.Testcases.Test2_Stripe_Accountbalance"/>
+            <class name="com.RestAssuredTestNG.APITests.Testcases.Test3_Stripe_AccountBalanceTransactions"/>
+            <class name="com.RestAssuredTestNG.APITests.Testcases.Test4_Notes_expandtesting"/>
         </classes>
     </test>
 </suite>
